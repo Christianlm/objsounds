@@ -1,9 +1,9 @@
 # -*- coding: UTF-8 -*-
 
 # objsounds addon for NVDA created by Tyler Spivey.
-# Version 20.06.17-dev.
-# Last update by Chris Leo <llajta2012@gmail.com> on 17 june 2020.
-# Copyright (C)2019-2020.
+# Version 21.02.10-dev.
+# Last update by Chris Leo <llajta2012@gmail.com> on 10 feb 2021.
+# Copyright (C)2019-2021.
 # Released under GPL 2
 #This file is covered by the GNU General Public License.
 #See the file COPYING for more details.
@@ -28,7 +28,7 @@ hook = True
 loc = os.path.abspath(os.path.dirname(objdata.__file__))
 old = None
 
-def getPropertiesSpeech2(reason=controlTypes.REASON_QUERY, *args, **kwargs):
+def getPropertiesSpeech2(reason=controlTypes.OutputReason.QUERY, *args, **kwargs):
 	role = kwargs.get('role', None)
 	if 'role' in kwargs and role in sounds and os.path.exists(sounds[role]):
 		del kwargs['role']
