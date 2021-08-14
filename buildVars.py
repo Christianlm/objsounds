@@ -19,7 +19,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description" : _("""Plays sounds based on objects as you move to them."""),
 	# version
-	"addon_version" : "21.02.10-dev",
+	"addon_version" : "21.08.14-dev",
 	# Author(s)
 	"addon_author" : u"Tyler Spivey",
 	# URL for the add-on documentation support
