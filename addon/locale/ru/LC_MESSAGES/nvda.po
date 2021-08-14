@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'objsounds\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2020-06-17 11:53+0200\n"
+"PO-Revision-Date: 2021-08-14 02:58+0300\n"
+"Last-Translator: Alex Yeshanu <eshanuap@gmail.com>\n"
+"Language-Team: Alex Yeshanu <eshanuap@gmail.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Translators: Message presented in input help mode.
+#: addon\globalPlugins\objsounds\__init__.py:71
+msgid "Turns off obj sound"
+msgstr "Переключает ObjSounds"
+
+#: addon\globalPlugins\objsounds\__init__.py:78
+msgid "on"
+msgstr "звуки включены"
+
+#: addon\globalPlugins\objsounds\__init__.py:80
+msgid "off"
+msgstr "звуки отключены"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:17
+msgid "obj sounds"
+msgstr "obj sounds"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
+msgid "Plays sounds based on objects as you move to them."
+msgstr "Воспроизводит звуки на основе объектов при перемещении к ним."
